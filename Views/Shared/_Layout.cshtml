@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>PINPRINT - @ViewBag.Title</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/Content/img/logo.ico" />
+    @Styles.Render("~/css/bootstrap")
+    @Styles.Render("~/Content/css")
+
+</head>
+<body>
+
+
+
+    <!-- Header Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <div class="container">
+            <div class="divLogo"><img src="~/Content/img/fundamental/logo.png" class="imgPinPrintLogo imgLogo1" alt="Logo" /></div>
+            <!-- Brand -->
+            <a class="navbar-brand" href="" target="_blank">
+                <strong>PINPRINT</strong>
+            </a>
+
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Left -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item activeee">
+                        <a class="nav-link" href="@Url.Action("Home", "Home")">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("About", "Home")">About</a>
+                    </li>
+                </ul>
+
+                <!-- Right -->
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="https://www.facebook.com" class="nav-link" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://twitter.com" class="nav-link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link border border-light rounded"
+                           target="_blank">
+                            <i class="fab fa-opencart mr-2"></i>PLACE ORDER
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- Header Navbar -->
+    <!--Content Container-->
+
+    @RenderBody()
+
+    <!--Content Container-->
+    <!--Footer-->
+    <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+        <hr class="my-4">
+
+        <!-- Social icons -->
+        <div class="pb-4">
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-f mr-3"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <i class="fab fa-twitter mr-3"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+                <i class="fab fa-youtube mr-3"></i>
+            </a>
+            <a href="https://plus.google.com" target="_blank">
+                <i class="fab fa-google-plus-g mr-3"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram mr-3"></i>
+            </a>
+            <a href="https://accounts.snapchat.com" target="_blank">
+                <i class="fab fa-snapchat-ghost mr-3"></i>
+            </a>
+        </div>
+        <!-- Social icons -->
+        <!--Copyright-->
+        <div class="footer-copyright py-3">
+            Copyright © 2020 <a href="#" target="_blank"> PINPRINT.COM </a> Inc. All rights reserved.
+
+            Inc. in Abu Dhabi, UAE
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+    @Scripts.Render("~/Content/js")
+    @Scripts.Render("~/js/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

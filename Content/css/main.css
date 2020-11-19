@@ -1,0 +1,82 @@
+﻿html,
+body,
+header,
+.carousel {
+    height: 60vh;
+}
+
+.imgServiceOption {
+    width: 15vh;
+}
+
+.divLogo {
+    z-index: 999999;
+    background: transparent;
+    text-align: center;
+    position: fixed;
+    left: 48%;
+    top: 0px;
+}
+
+.imgPinPrintLogo {
+    transition: width 0.5s ease-in-out, margin 0.5s ease-in-out;
+}
+
+.imgLogo1 {
+    width: 80px;
+    margin-top: 5px;
+}
+
+.imgLogo2 {
+    width: 60px;
+    margin-top: 5px;
+}
+
+.sectionServices {
+    background: #e7f4ff;
+    padding-left: 24px;
+    padding-top: 24px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#sectionServices .serviceTitle {
+    color: #00bad8;
+}
+
+.divFooterLogo {
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    padding-top: 12px;
+}
+
+.divFooterIcons {
+    padding-top: 35px;
+}
+
+.imgAbout {
+    max-width: 100%;
+    max-height: 100%;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 740px) {
+    html, body, header, .carousel {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .carousel {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+    }
+}
