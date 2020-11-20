@@ -165,7 +165,6 @@
     <Content Include="Content\css\style.css" />
     <Content Include="Content\css\style.min.css" />
     <Content Include="Content\img\flags.png" />
-    <Content Include="Content\img\fundamental\banner-main.jpg" />
     <Content Include="Content\img\fundamental\banner.jpg" />
     <Content Include="Content\img\fundamental\logo-new-update.png" />
     <Content Include="Content\img\fundamental\new-banner.jpg" />
@@ -181,7 +180,6 @@
     <Content Include="Content\img\fundamental\offer 2.png" />
     <Content Include="Content\img\fundamental\print-producs.png" />
     <Content Include="Content\img\fundamental\tshirt.png" />
-    <Content Include="Content\img\fundamental\banner-main-updated.jpg" />
     <Content Include="Content\img\fundamental\Untitled-7.png" />
     <Content Include="Content\img\fundamental\WhatsApp Image 2020-11-10 at 11.55.51.jpeg" />
     <Content Include="Content\img\fundamental\why-pinprint.jpg" />
