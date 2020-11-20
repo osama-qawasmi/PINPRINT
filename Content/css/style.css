@@ -35,23 +35,23 @@ body,
 /* Navbar animation */
 .navbar {
     /*    background-color: rgba(0, 0, 0, 0.3);*/
-    background-color: #1C2331
+    background-color: #0995ba;
 }
 
 .top-nav-collapse {
-    background-color: #1C2331;
-    padding-top: 12px !important;
-    padding-bottom: 12px !important;
+    background-color: #0995ba;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
 }
 
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #1C2331;
+        background-color: #0995ba;
     }
 }
 
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
-    background-color: #1C2331;
+    background-color: #0995ba;
 }
