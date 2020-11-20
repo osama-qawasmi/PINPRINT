@@ -185,6 +185,16 @@
     <Content Include="Content\img\fundamental\Untitled-7.png" />
     <Content Include="Content\img\fundamental\WhatsApp Image 2020-11-10 at 11.55.51.jpeg" />
     <Content Include="Content\img\fundamental\why-pinprint.jpg" />
+    <Content Include="Content\img\icons\bags.png" />
+    <Content Include="Content\img\icons\banners.png" />
+    <Content Include="Content\img\icons\brochure.png" />
+    <Content Include="Content\img\icons\buisness-card.png" />
+    <Content Include="Content\img\icons\calender.png" />
+    <Content Include="Content\img\icons\cup.png" />
+    <Content Include="Content\img\icons\flyer.png" />
+    <Content Include="Content\img\icons\packages.png" />
+    <Content Include="Content\img\icons\stationairy.png" />
+    <Content Include="Content\img\icons\t-shirt.png" />
     <Content Include="Content\img\lightbox\default-skin.png" />
     <Content Include="Content\img\lightbox\default-skin.svg" />
     <Content Include="Content\img\lightbox\preloader.gif" />
